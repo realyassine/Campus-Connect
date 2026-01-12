@@ -53,7 +53,7 @@ export default function MainApp() {
           onPress={() => setActiveTab('Home')}
         >
           <Text style={[styles.tabText, activeTab === 'Home' && styles.activeTabText]}>
-            🏠 Accueil
+            Accueil
           </Text>
         </TouchableOpacity>
         
@@ -62,7 +62,7 @@ export default function MainApp() {
           onPress={() => setActiveTab('Events')}
         >
           <Text style={[styles.tabText, activeTab === 'Events' && styles.activeTabText]}>
-            📅 Événements
+            Événements
           </Text>
         </TouchableOpacity>
         
@@ -71,7 +71,7 @@ export default function MainApp() {
           onPress={() => setActiveTab('Jobs')}
         >
           <Text style={[styles.tabText, activeTab === 'Jobs' && styles.activeTabText]}>
-            💼 Emplois
+            Emplois
           </Text>
         </TouchableOpacity>
         
@@ -80,7 +80,7 @@ export default function MainApp() {
           onPress={() => setActiveTab('Profile')}
         >
           <Text style={[styles.tabText, activeTab === 'Profile' && styles.activeTabText]}>
-            👤 Profil
+            Profil
           </Text>
         </TouchableOpacity>
       </View>
