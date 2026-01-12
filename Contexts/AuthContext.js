@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }) => {
           console.log('Erreur Firestore (non bloquant):', error.message);
         }*/
       } else {
-        setUser(null);
+        setUser(null);// user logout
         setLoading(false);
       }
     });
